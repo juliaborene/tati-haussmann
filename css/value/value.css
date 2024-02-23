@@ -1,0 +1,28 @@
+
+.value-home{
+    display: flex;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 10em;
+}
+
+.value-home p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.value img{
+    margin-left: 20px;
+}
+
+@media (max-width:1000px){
+    .value-home{
+        display: inline-flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .value-home p{
+        margin: 30px;
+    }
+}
